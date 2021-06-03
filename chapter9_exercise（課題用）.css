@@ -73,12 +73,16 @@ footer {
   }
 }
 
-.step-box {
-  width: 90%;
-  margin: 0 auto 20px auto;
+@media screen and (max-width: 768px) {
+  .step-box {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
 }
 
-.step-box:last-child {
-  width: 90%;
-  margin: 0 auto;
+@media screen and (max-width: 768px) {
+  .step-box:last-child {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
